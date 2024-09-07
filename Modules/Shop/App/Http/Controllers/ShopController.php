@@ -17,6 +17,7 @@ class ShopController extends Controller
     {
         $products = Category::all();
         return view('shop::page.home',['title'=>'index']);
+    
     }
 
     public function home()
