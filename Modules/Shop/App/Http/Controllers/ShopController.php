@@ -16,7 +16,7 @@ class ShopController extends Controller
     public function index()
     {
         $products = Category::all();
-        return view('shop::index',['title'=>'index']);
+        return view('shop::page.home',['title'=>'index']);
     }
 
     public function home()
@@ -27,8 +27,12 @@ class ShopController extends Controller
 
     public function shop()
     {
-        $products = Category::all();
+        //$products = Category::all();
         return view('shop::page.shop');
+    }
+
+    public function toko(){
+        return view('shop::page.toko');
     }
 
     public function transaksi()
