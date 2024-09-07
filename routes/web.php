@@ -19,10 +19,9 @@ use Modules\Shop\App\Http\Controllers\ShopController;
 // });
 
 //Route::get('/', [ShopController::class, 'index'])->name('index');
- Route::get('/home', [ShopController::class, 'home'])->name('home');
-Route::get('/shop', [ShopController::class, 'shop'])->name('shop');
+Route::get('/home', [ShopController::class, 'home'])->name('home');
 Route::get('/toko', [ShopController::class, 'toko'])->name('toko');
-
+Route::get('/kontak', [ShopController::class, 'kontak'])->name('kontak');
 Route::get('/transaksi', [ShopController::class, 'transaksi'])->name('transaksi');
 Route::get('/contact', [ShopController::class, 'contact'])->name('contact');
 

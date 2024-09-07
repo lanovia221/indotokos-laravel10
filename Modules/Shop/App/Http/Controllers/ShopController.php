@@ -26,12 +26,6 @@ class ShopController extends Controller
         return view('shop::page.home',['title'=>'Home']);
     }
 
-    public function shop()
-    {
-        //$products = Category::all();
-        return view('shop::page.shop');
-    }
-
     public function toko(){
         return view('shop::page.toko');
     }
@@ -42,10 +36,8 @@ class ShopController extends Controller
         return view('shop::page.transaksi',['title'=>'Transaksi']);
     }
 
-    public function contact()
-    {
-        $products = Category::all();
-        return view('shop::page.contact', ['title'=>'Contact']);
+    public function kontak(){
+        return view('shop::page.kontak');
     }
     /**
      * Show the form for creating a new resource.

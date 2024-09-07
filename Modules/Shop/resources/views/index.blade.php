@@ -25,7 +25,7 @@
 .icon-nav{
     color: #FFFFFF8C;}
 .icon-nav:hover{
-    color: white;
+    color: black;
 }
 .notif{
     position: relative;

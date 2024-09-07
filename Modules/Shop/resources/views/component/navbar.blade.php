@@ -7,13 +7,13 @@
       <div class="collapse navbar-collapse justify-content-end gap-4" id="navbarSupportedContent">
         <ul class="navbar-nav gap-4">
           <li class="nav-item fs-5">
-            <a class="nav-link active" aria-current="page" href="/home">Home</a>
+            <a class="nav-link" aria-current="page" href="/home">Home</a>
           </li>
           <li class="nav-item fs-5">
-            <a class="nav-link" href="/shop">Shop</a>
+            <a class="nav-link" href="/toko">Shop</a>
           </li>
-          <li class="nav-item fs-5" href="/contact">
-            <a class="nav-link disabled">Contact Us</a>
+          <li class="nav-item fs-5">
+            <a class="nav-link" href="/kontak">Contact</a>
           </li>
         </ul>
         <form class="d-flex gap-4 align-items-center" role="search">
