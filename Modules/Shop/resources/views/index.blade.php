@@ -1,11 +1,3 @@
-@extends('shop::layouts.master')
-
-{{-- @section('content')
-    <h1>Hello World</h1>
-
-    <p>Module: {!! config('shop.name') !!}</p>
-@endsection --}}
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -73,7 +65,9 @@
     </header>
     <main>
         <section>
-            @yield('content')
+            <div class="container">
+                @yield('content')
+            </div>
         </section>
     </main>
     <footer>
