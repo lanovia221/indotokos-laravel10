@@ -7,14 +7,11 @@
       <div class="collapse navbar-collapse justify-content-end gap-4" id="navbarSupportedContent">
         <ul class="navbar-nav gap-4">
           <li class="nav-item fs-5">
-            <a class="nav-link" aria-current="page" href="/home">Home</a>
-          </li>
+            <a class="nav-link {{ Request::is('home') ? 'active' : '' }}" aria-current="page" href="{{ url('home') }}">Home</a></li>
           <li class="nav-item fs-5">
-            <a class="nav-link" href="/toko">Shop</a>
-          </li>
+            <a class="nav-link {{ Request::is('toko') ? 'active' : '' }}" aria-current="page" href="{{ url('toko') }}">Shop</a>          </li>
           <li class="nav-item fs-5">
-            <a class="nav-link" href="/kontak">Contact</a>
-          </li>
+            <a class="nav-link {{ Request::is('kontak') ? 'active' : '' }}" aria-current="page" href="{{ url('kontak') }}">Contact</a></li>
         </ul>
         <form class="d-flex gap-4 align-items-center" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
