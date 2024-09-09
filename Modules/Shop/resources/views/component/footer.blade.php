@@ -7,10 +7,10 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem consequatur accusantium beatae sit impedit cumque sed ea voluptatum velit animi laborum molestias, necessitatibus, odit cupiditate nobis omnis error autem voluptatem.</p>
         </div>
         <div class="title-middle w-25">
-            <div class="header-title mb-2 font-weight-bolder">
+            <div class="header-title fs-4 mb-2 font-weight-bolder">
                 Tentang Kami
             </div>
-            <ul>
+            <ul class="list-unstyled">
                 <li>
                     <address>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Error pariatur illo enim labore beatae rerum.

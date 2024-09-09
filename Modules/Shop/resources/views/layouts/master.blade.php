@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
@@ -19,11 +19,11 @@
 
     {{-- Vite CSS --}}
     {{-- {{ module_vite('build-shop', 'resources/assets/sass/app.scss') }} --}}
-</head>
+{{-- </head>
 
 <body>
-    @yield('content')
+    @yield('content') --}}
 
     {{-- Vite JS --}}
     {{-- {{ module_vite('build-shop', 'resources/assets/js/app.js') }} --}}
-</body>
+{{-- </body>  --}}
