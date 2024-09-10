@@ -11,51 +11,12 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="{{ asset('css/custome.css') }}">
+    <link rel="stylesheet" href="{{ asset('js/custom.js') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <style>
-        * {
-            font-family: 'Poppins', sans-serif;
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
 
-        .icon-nav {
-            color: #FFFFFF8C;
-        }
-
-        .icon-nav:hover {
-            color: black;
-        }
-
-        .notif {
-            position: relative;
-        }
-
-        .circle {
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            background-color: rgb(247, 156, 37);
-            color: white;
-            text-align: center;
-            font-size: 12px;
-            top: -4px;
-            right: -15px;
-
-        }
-
-        section {
-            min-height: 80vh;
-        }
-
-        /* style footer */
-        footer {
-            position: static;
-            bottom: 0;
-            background-color: #820300;
-            color: whitesmoke;
-        }
     </style>
 </head>
 
@@ -72,7 +33,7 @@
     </main>
     <footer>
         @include('shop::component.footer')
-</footer>
+    </footer>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -81,5 +42,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
     integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
 </script>
+<script src="{{ asset('js/custom.js') }}"></script>
 
 </html>
