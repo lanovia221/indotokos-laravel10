@@ -30,10 +30,10 @@
                     <input type="text" class="col-sm-2 form-control w-25 border-0 fs-4" readonly id="total">
                 </div>
                 <div class="row w-50 gap-1">
-                    <div class="btn btn-success col-sm-5">
+                    <a href="/checkout" class="btn btn-success col-sm-5">
                         <i class="fa fa-shopping-cart"></i>
                         Checkout
-                    </div>
+                    </a>
                     <div class="btn btn-danger col-sm-5">
                         <i class="fa fa-trash-alt"></i>
                         Delete

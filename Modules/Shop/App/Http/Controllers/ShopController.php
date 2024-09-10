@@ -39,6 +39,10 @@ class ShopController extends Controller
     public function kontak(){
         return view('shop::page.kontak');
     }
+
+    public function checkout(){
+        return view('shop::page.checkOut');
+    }
     /**
      * Show the form for creating a new resource.
      */

@@ -24,6 +24,7 @@ Route::get('/toko', [ShopController::class, 'toko'])->name('toko');
 Route::get('/kontak', [ShopController::class, 'kontak'])->name('kontak');
 Route::get('/transaksi', [ShopController::class, 'transaksi'])->name('transaksi');
 Route::get('/contact', [ShopController::class, 'contact'])->name('contact');
+Route::get('/checkout', [ShopController::class, 'checkout'])->name('checkout');
 
 // Auth::routes();
 // Route::prefix('shop')->group(function(){
